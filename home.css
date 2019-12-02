@@ -1,0 +1,61 @@
+body{
+    margin: 0%;
+}
+
+section{
+    width: 80vw;
+    background-color: rgba(224, 209, 209, 0.616);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    transform: scale(0.2);
+}
+.btn-container{
+    display: flex;
+    width: 35%;
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin: 10px 2px;
+}
+#progresso{
+    position: absolute;
+    background-color: red;
+    width: 0%;
+    height: 4%;
+    left: 0;
+    bottom: 7px;   
+}
+.bolinha{
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 1%;
+    height: 10%;
+    left: 0%;
+    bottom: 2px;
+}
+.back{
+    width: 100%;
+    height: 4%;
+    background-color: silver;
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+}
+#btn2{
+    overflow: hidden;
+}
+
+
+
+
